@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+  cursor: url('../img/fresas.png'), auto;
+
+  background: linear-gradient(
+      0deg,
+      #e9e9e9cc,
+      #e9e9e9cc
+    ),
+    url("../img/body_background.webp");
+  /* background-image: url('../img/body_background.webp'); */
+  /* background-size: contain; */
+}
+
+.pagina--header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 5px black;
+
+  background-image: url("../img/banner-v2.jpg");
+  background-size: cover; /*-> Imagen cubre todo*/
+  /* background-size: contain; -> Imagen se repite */
+  /* background-size: 100vh; */
+}
+
+.header--titulo {
+  font-family: "Playwrite NL", cursive;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.header--lista {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.header--lista a {
+  text-decoration: none;
+  padding: 20px;
+  color: #675e5e;
+  transition: all 0.4s;
+}
+
+.header--lista a:hover {
+  transform: rotate(15deg) scale(1.5);
+  background-color: rgba(226, 139, 139, 0.4);
+}
+
+main {
+  padding: 0 40px;
+}
+
+main h1 {
+  font-family: "Playwrite NL", cursive;
+}
+
+.pastel img,
+.pie iframe {
+  width: 560px;
+  min-width: 560px;
+  height: 315px;
+  margin-right: 20px;
+  float:left;
+}
+
+.pastel p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer-texto{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(231, 0, 138, 0.2);
+  padding-bottom: 20px;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconos-redes-sociales {
+  font-size: 30px;
+  color: #675e5e;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu a:hover {
+  font-weight: bold;
+}
+
+footer p {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+}
